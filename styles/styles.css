@@ -1,0 +1,187 @@
+/* Estilos para los títulos */
+.titulos {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: underline;
+}
+
+/* Estilos para los títulos de Anexo */
+.titulosAnexo {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: underline;
+}
+
+.parrafosAnexo {
+  margin-left: 20px;
+}
+
+/* Estilos para el carrusel */
+#carouselExample {
+  position: relative;
+  width: 100%;
+  margin: auto;
+}
+
+.carousel-item {
+  padding: 40px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  color: #fff;
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 0.9;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+}
+
+/* Estilos para los textos superpuestos */
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 80%;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.carousel-caption p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: #dfdfdf;
+  color: #3f3f3f;
+  padding: 30px 0;
+}
+
+.footer .integrantes-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer .integrantes-list li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.footer .created-by {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Estilos para el acordeón */
+.accordion-item {
+  margin-bottom: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+}
+
+.accordion-button {
+  background-color: #f8f9fa;
+  color: #212529;
+  border: none;
+  border-bottom: 1px solid #dee2e6;
+  padding: 10px 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.accordion-button:hover {
+  background-color: #e9ecef;
+}
+
+.accordion-button.collapsed {
+  background-color: #e9ecef;
+}
+
+.accordion-body {
+  padding: 15px;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+  margin-top: -1px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.accordion-body p {
+  margin-bottom: 10px;
+}
+
+.accordion-body table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.accordion-body table th,
+.accordion-body table td {
+  border: 1px solid #dee2e6;
+  padding: 8px;
+  text-align: left;
+}
+
+.accordion-body table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
